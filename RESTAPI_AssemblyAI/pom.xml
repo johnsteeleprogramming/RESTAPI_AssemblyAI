@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>RESTAPI_AssemblyAI</groupId>
+  <artifactId>com.steele.api.rest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>RESTAPI_AssemblyAI</name>
+  <description>Program to use AssemblyAI's free API</description>
+  
+  <dependencies>
+	<dependency>
+		<groupId>com.google.code.gson</groupId>
+		<artifactId>gson</artifactId>
+		<version>2.9.0</version>
+	</dependency>
+  </dependencies>
+</project>
