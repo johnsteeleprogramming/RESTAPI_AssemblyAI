@@ -33,7 +33,7 @@ public class AssemblyAI_API {
 
 	public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
 
-		String audio_url = "https://raw.githubusercontent.com/johnsteeleprogramming/JohnSteeleProgramming/main/AssemblyAI_audio_test_0.mp3";
+		String audio_url = "";	// Input URL to audio file that assemblyai.com can download.
 
 		Transcript transcript = new Transcript();
 		transcript.setAudio_url(audio_url);
@@ -42,7 +42,7 @@ public class AssemblyAI_API {
 		System.out.println("JSON:\n" + jsonRequest);
 
 		String uri = "https://api.assemblyai.com/v2/transcript";
-		String api_key = "60ee24660e50454d8da8841f0e1dc1f2";
+		String api_key = "";	// Input API key you can obtain from your assemblyai.com account.
 
 		HttpRequest postRequest = HttpRequest.newBuilder()
 				.uri(new URI(uri))
